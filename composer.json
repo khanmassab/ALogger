@@ -1,0 +1,20 @@
+{
+    "name": "massabatic/a-logger",
+    "description": "A Laravel package for logging model activities",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Massabatic\\ALogger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Massabatic\\ALogger\\Providers\\ALoggerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
